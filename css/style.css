@@ -75,10 +75,9 @@ line-height: normal;
  font-size: 16px;
  font-weight: 700;
 }
-
 /* header bitdi */
 
-
+/* section 1 basladi */
 #section-1{
 background-color: #ffe3e8;
 padding: 20px 0;
@@ -98,6 +97,20 @@ padding: 20px 0;
     gap: 16px;
    align-items: flex-start;
 }
+
+ .section-1-info p {
+    color: var(--Main-Color-Title-Text, #52002C);
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Sansita Swashed";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+ }
+
+
 
 .section-1-info h2 {
     /* font-family: "El Messiri"; */
@@ -134,15 +147,34 @@ padding: 20px 0;
  .section-1-img img {
     border-radius: 50px;
     box-shadow: 10px 10px 30px 0px rgba(148, 42, 89, 0.50);
-    width: 10git0%;
+    width: 100%;
  }
+ /* section 1 bitdi */
 
+/* section 2 basladi */
+#section-2 {
+ padding: 60px 0;
+}
 
+.section-2-content {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;  
+}
 
+.section-2-img{
+ width: 49%;
+ border-radius: 50px;
+ 
+}
 
-
-
-
-
+.section-2-img-2{
+width: 49%;
+border-radius: 50px;
+  
+}
+/* section 2 bitdi */
 
 
