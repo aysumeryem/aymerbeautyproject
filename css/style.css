@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header {
+    padding: 10px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.headerContent {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myLogo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.myLogo h1 {
+    color: #D16F9A;
+    font-family: "Dancing Script";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-style: italic;  
+}
+
+.myLogo img {
+    width: 90px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: #D16F9A;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    text-decoration: none;  
+}
+
+.deliveryInfo button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: white;
+  border-radius: 33px;
+  border: 1px solid #D16F9A;
+  padding: 6px;
+  cursor: pointer;
+}
+#E0E0E0
+.deliveryInfo button p {
+color: #D16F9A;
+font-family: "Roboto";
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.deliveryInfo button p {
+ color: #D16F9A;  
+ font-family: "Roboto"; 
+ font-size: 16px;
+ font-weight: 700;
+}
+
+/* header bitdi */
+
+
+#section-1{
+background-color: #ffe3e8;
+padding: 20px 0;
+}
+
+.section-1-content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+   align-items: flex-start;
+}
+
+.section-1-info h2 {
+    /* font-family: "El Messiri"; */
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.3%; 
+    color: var(--Main-Color-subText, #D16F9A);
+    
+}
+
+.section-1-info button {
+    display: flex;
+    padding: 24px 48px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: none;
+
+    border-radius: 100px;
+    background: var(--Main-Color-Button, linear-gradient(97deg, #942A59 11.2%, #52002C 127.84%));
+    box-shadow: 0px 10px 30px 0px rgba(148, 42, 89, 0.50);
+    opacity: 0.94;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    cursor: pointer;
+}
+
+ .section-1-img img {
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px 0px rgba(148, 42, 89, 0.50);
+    /* width: 90%; */
+ }
+
+
+
+
+
+
+
+
+
+
