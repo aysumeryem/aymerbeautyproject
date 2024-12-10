@@ -178,6 +178,7 @@ border-radius: 50px;
 /* section 2 bitdi */
 
 /* section 3 baslayir */
+
 #section-3 {
     padding: 60px 0;
 
@@ -200,17 +201,18 @@ border-radius: 50px;
 }
 
 .section-3-info p:first-child {
-    font-family: "Roboto";
+
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: #7EB693;
+    color: #D16F9A;
+    font-family: "Roboto";
     font-style: italic;
 }
 
 .section-3-info h2 {
-    color: #274C5B;
+    color: var(--Main-Color-Title-Text, #52002C);
     font-family: "Roboto";
     font-size: 50px;
     font-style: normal;
@@ -224,7 +226,7 @@ border-radius: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: 165.4%; /* 29.772px */
-    color: #525C60;
+    color: #D16F9A;;
     margin-bottom: 20px;
 }
 
@@ -236,7 +238,7 @@ border-radius: 50px;
 }
 
 .businessRulers h5{
-    color: #274C5B;
+    color: var(--Main-Color-Title-Text, #52002C);
     font-family: "Roboto";
     font-size: 25px;
     font-style: normal;
@@ -245,12 +247,13 @@ border-radius: 50px;
 }
 
 .businessRulers p {
-    color: #525C60;
+    color: #D16F9A;
 font-family: "Open Sans";
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 165.4%; /* 29.772px */
+
 }
 
 .section-3-info button {
@@ -264,7 +267,176 @@ line-height: 165.4%; /* 29.772px */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color: #FFF;
     border-radius: 15px;
     margin-top: 20px;
+    background: var(--Main-Color-Button, linear-gradient(97deg, #942A59 11.2%, #52002C 127.84%));
+    box-shadow: 0px 10px 30px 0px rgba(148, 42, 89, 0.50);
+    opacity: 0.94;
+    color: #FFF;
+    
+}
+
+/* section 4 basladi */
+
+#section-4 {
+    padding: 89px 0;
+    background-image: url("/assets/images/cosmeticbg.jpg");
+    background-size: center ;
+    
+}
+#section-4 .title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+#section-4 .title h2 {
+    
+    color: white;
+    text-align: center;
+font-family: "Roboto";
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+#section-4 .title h5 {
+color: white;
+text-align: center;
+font-family: "Roboto";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img{
+    border-radius: 50px;
+}
+
+.mySlides .text img {
+    width: 200px;
+    height: 200px;
+
+    
+}
+
+.mySlides .text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.mySlides .text p {
+    color: #ffffff;
+text-align: center;
+font-family: "Open Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+}
+
+.mySlides .text .h3 {
+    color: white;
+font-family: "Roboto";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 165.4%; /* 24.81px */
+}
+
+.mySlides .text h4{
+    color: white;
+font-family: "Open Sans";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 24.81px */
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0.4}
+  to {opacity: 1}
 }
