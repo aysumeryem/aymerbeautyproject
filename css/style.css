@@ -177,4 +177,94 @@ border-radius: 50px;
 }
 /* section 2 bitdi */
 
+/* section 3 baslayir */
+#section-3 {
+    padding: 60px 0;
 
+}
+
+.section-3-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3-content img {
+    width: 48%;
+    border-radius: 50px;
+}
+
+.section-3-content .section-3-info{
+    width: 48%;
+}
+
+.section-3-info p:first-child {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #7EB693;
+    font-style: italic;
+}
+
+.section-3-info h2 {
+    color: #274C5B;
+    font-family: "Roboto";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-3-info .myBusinessInfo {
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+    color: #525C60;
+    margin-bottom: 20px;
+}
+
+.businessRulers {
+   display: flex;
+   flex-direction: column;
+   gap: 30px; 
+   width: 50%;
+}
+
+.businessRulers h5{
+    color: #274C5B;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.businessRulers p {
+    color: #525C60;
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 165.4%; /* 29.772px */
+}
+
+.section-3-info button {
+    padding: 20px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+    border-radius: 15px;
+    margin-top: 20px;
+}
