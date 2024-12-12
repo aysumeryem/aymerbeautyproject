@@ -518,12 +518,22 @@ line-height: 165.4%; /* 24.81px */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color: #274C5B;
+    color: #D16F9A;
   }
 
 
+  .footer-logo h3 {
+    color: #D16F9A;    
+    font-family: "Dancing Script";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-style: italic;
+  }
+
   .footer-content .left h4 {
-    color: #525C60;
+    color: gray;
     font-family: "Roboto";
     font-size: 18px;
     font-style: normal;
@@ -556,8 +566,14 @@ line-height: 165.4%; /* 24.81px */
     font-style: normal;
     font-weight: 400;
     line-height: 165.4%; /* 29.772px */
-    color: #525C60;
+    color: gray;
   }
+
+
+  .footer-content .left p{
+    color: gray;
+  }
+
 
 
   .footer-icons {
