@@ -75,6 +75,13 @@ line-height: normal;
  font-size: 16px;
  font-weight: 700;
 }
+
+.menubtn {
+  font-size: 32px;
+  border: none;
+  color: #D16F9A;
+  
+}
 /* header bitdi */
 
 /* section 1 basladi */

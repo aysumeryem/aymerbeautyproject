@@ -42,3 +42,19 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+
+
+const menuButton = document.getElementById("menuBtn");
+const navMenu = document.getElementById("navMenu");
+
+
+menuButton.addEventListener("click", function () {
+    
+    if (navMenu.style.display === "block") {
+        navMenu.style.display = "none"; 
+    } else {
+        navMenu.style.display = "block"; 
+    }
+});
