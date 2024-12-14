@@ -80,6 +80,7 @@ line-height: normal;
   font-size: 32px;
   border: none;
   color: #D16F9A;
+  display: none;
   
 }
 /* header bitdi */
@@ -281,6 +282,7 @@ line-height: 165.4%; /* 29.772px */
     box-shadow: 0px 10px 30px 0px rgba(148, 42, 89, 0.50);
     opacity: 0.94;
     color: #FFF;
+    border: none;
     
 }
 
@@ -288,7 +290,7 @@ line-height: 165.4%; /* 29.772px */
 
 #section-4 {
     padding: 40px 0;
-    background-image: url("/assets/images/cosmeticbg.jpg");
+    background-image: url("/assets/images/cosmeticbg.png");
     background-size: cover ;
     
 }
@@ -362,6 +364,7 @@ font-size: 28px;
 font-style: normal;
 font-weight: 400;
 line-height: 165.4%; /* 29.772px */
+padding: 0px 30px;
 }
 
 .mySlides .text .h3 {
