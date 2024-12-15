@@ -342,8 +342,14 @@ line-height: 165.4%; /* 29.772px */
 .card {
   display: flex;
   gap: 15px;
+  align-items: center;
+  color: #52002C;
 }
 
+
+.card i  {
+  cursor: pointer;
+}
 
 /* section 2 bitdi */
 
@@ -436,7 +442,7 @@ line-height: 165.4%; /* 29.772px */
  }
  
  .section-4-content {
-     width: 60%;
+     width: 90%;
      display: flex;
      margin: auto;
      justify-content: space-between;
@@ -444,18 +450,26 @@ line-height: 165.4%; /* 29.772px */
  }
  
  .section-4-img{
-  width: 49%;
+  width: 33%;
   border-radius: 50px;
   
  }
  
- .section-4-img-2{
- width: 49%;
- border-radius: 50px;
- }
+ #section-4 .title {
+  text-align: center;
+  margin-bottom: 60px;
 
-  .section-4-img-3{
- width: 49%;
- border-radius: 50px;
-   
- }
+}
+
+
+#section-4 .title h2 {
+  
+  color: var(--Main-Color-Title-Text, #52002C);
+  text-align: center;
+font-family: "Roboto";
+font-size: 60px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
