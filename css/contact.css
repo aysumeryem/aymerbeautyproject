@@ -282,3 +282,7 @@ form button:last-child:hover a {
 form button i {
     color: green;
 }
+
+form button:last-child:hover i {
+  color: white;
+}
