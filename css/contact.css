@@ -85,9 +85,8 @@ line-height: normal;
 }
 /* header bitdi */
 
-
-/* footer basladi */
-footer {
+ /* footer basladi */
+ footer {
     padding: 48px 0;
   }
 
@@ -174,114 +173,8 @@ footer {
     background-color: #D16F9A;
     border-radius: 50px;
   }
-  /* footer bitdi */
 
-
-  /* / Section / */
-
-.product-content {
-  width: 90%;
-  margin: auto;
-  padding: 50px 0;
-}
-#search-container {
-  width: 70%;
-  margin: auto;
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
-#search-container input {
-  width: 50%;
-  height: 40px;
-  padding: 10px;
-  border-radius: 20px;
-  outline: none;
-  border: 2px solid #d16f9a;
-  color: #c4115f;
-}
-#search-container button {
-  padding: 10px;
-  border-radius: 20px;
-  border: 2px solid #d16f9a;
-  background-color: #d16f9a;
-  color: white;
-  cursor: pointer;
-}
-
-#product-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 40px;
-}
-#product-container .card {
-  width: 24%;
-  border-radius: 20px;
-  background-color: #ffffff96;
-  border: 2px solid #d16f9a;
-  padding: 10px 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-#product-container .card img {
-  width: 100%;
-  border-radius: 20px;
-  height: 200px;
-  margin-bottom: 20px;
-}
-#product-container .card h2 {
-  color: #c4115f;
-  font-family: "Roboto";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-#product-container .card div p:first-child {
-  color: #fbfbfb;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  padding: 8px;
-  background-color: #d16f9a;
-  border-radius: 20px;
-  margin-bottom: 10px;
-}
-#product-container .card div p:last-child {
-  color: #ffffff;
-  font-family: "Roboto";
-  font-size: 18px;
-  font-weight: 600;
-  font-style: italic;
-  padding: 8px;
-  background-color: #d16f9a;
-  border-radius: 20px;
-}
-
-.pagination {
-  width: 15%;
-  background-color: #d16f9a5a;
-  display: flex;
-  gap: 10px;
-  padding: 10px;
-  justify-content: center;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 20px;
-}
-.pagination button {
-  background-color: transparent;
-  border: none;
-  color: #c4115f;
-  cursor: pointer;
-}
-
-/* MODAL */
+  /* MODAL */
 .modal {
   display: none;
   position: absolute;
@@ -313,4 +206,79 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
+/* modal bitdi */
 
+/* section */
+
+section {
+  padding: 60px;
+}
+.section-content {
+  margin: auto;
+  width: 90%;
+}
+form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+label {
+  font-family: "Roboto";
+  padding: 8px;
+  border: 2px solid #d16f9a;
+  border-radius: 20px;
+  font-size: 18px;
+}
+label input {
+  border: none;
+  font-size: 18px;
+  color: #ff006f;
+  outline: none;
+}
+label textarea {
+  border: none;
+  font-size: 18px;
+  color: #ff006f;
+  outline: none;
+}
+form button {
+  width: 20%;
+  margin: auto;
+  padding: 10px;
+  background-color: #d16f9a;
+  border: 2px solid #9e1651;
+  color: #e0e0e0;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+form button:last-child {
+  background-color: white;
+  border-color: green;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+form button:last-child a {
+  text-decoration: none;
+  color: green;
+  font-size: 12px;
+}
+
+form button:last-child:hover {
+  background-color: rgb(0, 179, 27);
+}
+form button:last-child:hover a {
+  color: white;
+}
+
+form button i {
+    color: green;
+}

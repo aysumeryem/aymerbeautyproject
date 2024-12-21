@@ -24,13 +24,13 @@
         </div>
         <nav id="navMenu">
             <ul>
-                <li><a href="">Ana səhifə</a></li>
-                <li><a href="">Haqqımızda</a></li>
-                <li><a href="">Məhsullarımız</a></li>
-                <li><a href="">Əlaqə</a></li>
+                <li><a href="../index.html">Ana səhifə</a></li>
+                <li><a href="../pages/about.html">Haqqımızda</a></li>
+                <li><a href="../pages/products.html">Məhsullarımız</a></li>
+                <li><a href="../pages/contact.html">Əlaqə</a></li>
             </ul>
         </nav>
-        <div class="deliveryInfo">
+        <div class="deliveryInfo" id="openModal">
             <button type="button">
                 <img src="../assets/images/catdirilmalogo.svg" alt="MəhsulLogo">
                 <p>Çatdırılma məlumatları</p>
@@ -43,12 +43,22 @@
 </header>
 
 <main>
-
-  
-  
-
-
+  <section>
+      <div class="product-content">
+          <div id="search-container">
+              <input
+                  type="text"
+                  id="search-input"
+                  placeholder="Ada görə axtar..."
+              />
+              <button onclick="searchProducts()">Axtar</button>
+          </div>
+          <div id="product-container"></div>
+          <div class="pagination" id="pagination-container"></div>
+      </div>
+  </section>
 </main>
+
 
 <footer>
 <div class="footer-content">
@@ -90,7 +100,18 @@
 
 </footer>
 
+<div class="modal" id="modal">
+    <p id="closeModal">x</p>
+    <p>Çatdırılma Məlumatları</p>
+    <ol>
+      <li>Şəhərdaxili və uzaq məsafələrə çatdırılma imkanı</li>
+      <li>Metrolara çatdırılma - 28 may / Memar Əcəmi - 2 AZN</li>
+      <li>Digər stansiyalara əlavə ödənişlə çatdırılma</li>
+      <li>Evlərə və rayonlara poçt vasitəsilə çatdırılma</li>
+    </ol>
+  </div>
 
+  
 <script src="../js/products.js"></script>
       
 </body>

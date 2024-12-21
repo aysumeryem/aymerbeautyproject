@@ -24,7 +24,7 @@
                 <li><a href="./pages/contact.html">Əlaqə</a></li>
             </ul>
         </nav>
-        <div class="deliveryInfo">
+        <div class="deliveryInfo" id="openModal">
             <button type="button">
                 <img src="./assets/images/catdirilmalogo.svg" alt="MəhsulLogo">
                 <p>Çatdırılma məlumatları</p>
@@ -43,7 +43,9 @@
   <div class="section-1-info"> 
     <p>100% Müştəri Məmnuniyyəti</p>
     <h2 class="welcomeWord">AyMerBeauty-ə Xoş Gəlmişsiniz!</h2>
-    <button type="button">Məhsullarımız</button>
+    <a href="./pages/products.html">
+      <button type="button">Məhsullarımız</button>
+    </a>
   </div>
 
    <div class="section-1-img">
@@ -80,7 +82,10 @@
             </p>
           </div>
         </div>
-       <div class="section-3-btn"> <button type="button">Haqqımızda</button>
+       <div class="section-3-btn">
+        <a href="./pages/about.html">
+          <button type="button">Haqqımızda</button>
+        </a>
       </div>
     </div>
   </div>
@@ -190,14 +195,14 @@
        <h2>Ən çox verilən suallar</h2>
     </div>
     <div class="accordions">
-      <button class="accordion">Niyə Nivea blackberry?</button>
+      <button class="accordion">Niyə Nivea Blackberry?</button>
 <div class="panel">
   <p>Nivea dodaq nəmləndiricisi olmasına baxmayaraq, rəngi və pigmentində digər nəmləndiricilərindən seçilməsinə görə hərkəs tərəfindən sevilir.</p>
 </div>
 
-<button class="accordion">Sizdən istədiyimiz məhsulu xahis etsək gətizdirə bilərsiniz mi?</button>
+<button class="accordion">Sizdən istədiyimiz məhsulu xahiş etsək gətizdirə bilərsiniz mi?</button>
 <div class="panel">
-  <p>Səhifəmizdə olan məhsullardan əlavə olaraq, müştərinin istədiyi şəxsi sifarişər də edilir.</p>
+  <p>Səhifəmizdə olan məhsullardan əlavə olaraq, müştərinin istədiyi şəxsi sifarişlər də edilir.</p>
 </div>
 
 <button class="accordion">Rayonlara çatdırılma var?</button>
@@ -253,6 +258,17 @@
 
 
 </footer>
+
+<div class="modal" id="modal">
+  <p class="modalClose" id="closeModal">X</p>
+  <p>Çatdırılma Məlumatları</p>
+  <ol>
+    <li>Şəhərdaxili və uzaq məsafələrə çatdırılma imkanı</li>
+    <li>Metrolara çatdırılma - 28 may / Memar Əcəmi - 2 AZN</li>
+    <li>Digər stansiyalara əlavə ödənişlə çatdırılma</li>
+    <li>Evlərə və rayonlara poçt vasitəsilə çatdırılma</li>
+  </ol>
+</div>
 
 
 <script src="./js/index.js"></script>

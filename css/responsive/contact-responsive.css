@@ -1,0 +1,120 @@
+/* tablet */
+@media only screen and (max-width: 991px) { */
+    nav{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 100px;
+      background-color: white;
+      z-index: 11111;
+      display: none;
+  
+    }
+   
+    nav ul {
+      flex-direction: column;
+      padding: 50px;
+      text-align: center;
+    }
+  
+    .deliveryInfo button p {
+     display: block;
+    }
+  
+    .menubtn {
+     display:  block !important;
+    }
+    /* Modal */
+  .modal {
+    width: 95% !important;
+  }
+
+  /* section */
+
+  form button:last-child {
+    width: 40% !important;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 601px) {
+    nav{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 100px;
+      background-color: white;
+      z-index: 11111;
+      display: none;
+  
+    }
+   
+    nav ul {
+      flex-direction: column;
+      padding: 50px;
+      text-align: center;
+    }
+  
+    .deliveryInfo button p {
+      display: none;
+    }
+  
+    .menubtn {
+      display: block !important; 
+    }
+     
+    /* header bitdi */
+
+
+    /* section */
+    .section-content {
+        width: 98% !important;
+    }
+    
+    form {
+        width: 100% !important;
+    }
+
+    form button {
+        width: 50% !important;
+    }
+
+    form button:last-child {
+        width: 70% !important;
+    }
+
+
+    /* footer basladi */
+
+ .footer-content {
+    flex-direction: column-reverse;
+   }
+   
+   .footer-content .rigth {
+    width: 98% !important;
+    align-items: center !important;
+   }
+  
+   .footer-content .left {
+    width: 98% !important;
+    text-align: center;
+    margin-top: 20px;
+   }
+  
+   .footer-content .rigth p {
+    text-align: center !important;
+   }
+  
+    /* Modal */
+    .modal {
+      width: 95% !important;
+    }
+  
+
+
+
+  }
