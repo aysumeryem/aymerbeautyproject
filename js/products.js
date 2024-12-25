@@ -28,12 +28,19 @@ const fetchProducts = async () => {
     console.log(data);
 
     allProducts = data.slice(50);
+
+    if (allProducts.length > 0) {
+      document.getElementById("product-container").style.display = "flex";
+      document.getElementById("pagination-container").style.display = "flex";
+    }
+
     renderProducts();
     renderPagination();
   } catch (error) {
     console.error("Error at fetch process", error);
   }
 };
+
 
 // productslari siralamaq
 

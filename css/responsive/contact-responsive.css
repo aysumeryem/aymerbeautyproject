@@ -1,120 +1,117 @@
-/* tablet */
-@media only screen and (max-width: 991px) { */
-    nav{
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 100px;
-      background-color: white;
-      z-index: 11111;
-      display: none;
-  
-    }
-   
-    nav ul {
-      flex-direction: column;
-      padding: 50px;
-      text-align: center;
-    }
-  
-    .deliveryInfo button p {
-     display: block;
-    }
-  
-    .menubtn {
-     display:  block !important;
-    }
-    /* Modal */
+/* / tablet / */
+@media only screen and (max-width: 991px) {
+  nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    background-color: white;
+    z-index: 11111;
+    display: none;
+  }
+
+  nav ul {
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .deliveryInfo button p {
+    display: block;
+  }
+
+  .menubtn {
+    display: block !important;
+  }
+  /* / Modal / */
   .modal {
     width: 95% !important;
   }
 
-  /* section */
+  /* / section / */
 
   form button:last-child {
     width: 40% !important;
+  }
+  .section-content > button {
+    width: 30% !important;
+  }
+  .section-content {
+    padding: 110px 0;
+  }
+  form {
+    width: 100% !important;
+  }
 }
-
-
-}
-
-
-
 
 @media only screen and (max-width: 601px) {
-    nav{
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 100px;
-      background-color: white;
-      z-index: 11111;
-      display: none;
-  
-    }
-   
-    nav ul {
-      flex-direction: column;
-      padding: 50px;
-      text-align: center;
-    }
-  
-    .deliveryInfo button p {
-      display: none;
-    }
-  
-    .menubtn {
-      display: block !important; 
-    }
-     
-    /* header bitdi */
+  nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100px;
+    background-color: white;
+    z-index: 11111;
+    display: none;
+  }
 
+  nav ul {
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+  }
 
-    /* section */
-    .section-content {
-        width: 98% !important;
-    }
-    
-    form {
-        width: 100% !important;
-    }
+  .deliveryInfo button p {
+    display: none;
+  }
 
-    form button {
-        width: 50% !important;
-    }
+  .menubtn {
+    display: block !important;
+  }
 
-    form button:last-child {
-        width: 70% !important;
-    }
+  /* / header bitdi / */
 
+  /* / section / */
+  section {
+    padding: 20px !important;
+  }
+  .section-content {
+    width: 100% !important;
+  }
 
-    /* footer basladi */
+  form {
+    width: 100% !important;
+  }
 
- .footer-content {
+  form > button {
+    width: 100% !important;
+  }
+  .section-content > button {
+    width: 90% !important;
+  }
+  /* / footer basladi / */
+
+  .footer-content {
     flex-direction: column-reverse;
-   }
-   
-   .footer-content .rigth {
+  }
+
+  .footer-content .rigth {
     width: 98% !important;
     align-items: center !important;
-   }
-  
-   .footer-content .left {
+  }
+
+  .footer-content .left {
     width: 98% !important;
     text-align: center;
     margin-top: 20px;
-   }
-  
-   .footer-content .rigth p {
-    text-align: center !important;
-   }
-  
-    /* Modal */
-    .modal {
-      width: 95% !important;
-    }
-  
-
-
-
   }
+
+  .footer-content .rigth p {
+    text-align: center !important;
+  }
+
+  /* / Modal / */
+  .modal {
+    width: 95% !important;
+  }
+}

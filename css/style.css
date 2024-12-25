@@ -461,61 +461,64 @@ line-height: 165.4%; /* 24.81px */
   to {opacity: 1}
 }
 
-/* section 5 basladi */
+/* / section 5 basladi / */
 #section-5 {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .section-5-content {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
 }
- .section-5-content h2 {
+.section-5-content h2 {
   text-align: center;
   margin-bottom: 20px;
   font-family: "Roboto";
   font-size: 48px;
-  color: #D16F9A;
- }
+  color: #d16f9a;
+}
+.accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .accordion {
-    background-color: #eee;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    border-radius: 20px;
-  }
-  
-  
-  .active, .accordion:hover {
-    background-color: #ccc;
-  }
-  
- 
-  .panel {
-    padding: 20px 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-    font-family: "Roboto";
-  }
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 20px;
+}
 
-  .accordion:after {
-    content: '\02795'; 
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-  }
-  
- .accordions .active:after {
-    content: "\2796"; 
-    
-  }
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 20px 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-family: "Roboto";
+}
+
+.accordion:after {
+  content: "\02795";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordions .active:after {
+  content: "\2796";
+}
 
 
   /* footer basladi */

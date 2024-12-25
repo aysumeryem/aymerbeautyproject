@@ -340,10 +340,12 @@ line-height: 165.4%; /* 29.772px */
 }
 
 .card {
+  width: 50%;
   display: flex;
   gap: 15px;
   align-items: center;
-  color: #52002C;
+  justify-content: space-between;
+  color: #52002c;
 }
 
 
