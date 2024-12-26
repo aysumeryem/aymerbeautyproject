@@ -18,7 +18,7 @@ const showEye = document.getElementById("show-eye");
 const hideEye = document.getElementById("hide-eye");
 
 
-const originalNumber = 416973888047420;
+const originalNumber = 4169738808744720;
 
 showEye.addEventListener("click", () => {
   cardNumber.textContent = originalNumber; 
@@ -27,7 +27,7 @@ showEye.addEventListener("click", () => {
 });
 
 hideEye.addEventListener("click", () => {
-  cardNumber.textContent = "************7420"; 
+  cardNumber.textContent = "************4720"; 
   hideEye.style.display = "none"; 
   showEye.style.display = "inline"; 
 });

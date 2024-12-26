@@ -263,6 +263,7 @@ nav ul li a {
 }
 
 .section-3-info button {
+  cursor: pointer;
   padding: 20px 30px;
   flex-direction: column;
   justify-content: center;
@@ -278,6 +279,7 @@ nav ul li a {
   background: var(
     --Main-Color-Button,
     linear-gradient(97deg, #942a59 11.2%, #52002c 127.84%)
+  
   );
   box-shadow: 0px 10px 30px 0px rgba(148, 42, 89, 0.5);
   opacity: 0.94;
