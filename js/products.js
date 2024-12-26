@@ -22,7 +22,7 @@ let card;
 const fetchProducts = async () => {
   try {
     const response = await fetch(
-      "http://makeup-api.herokuapp.com/api/v1/products.json"
+      "https://makeup-api.herokuapp.com/api/v1/products.json"
     );
     const data = await response.json();
     console.log(data);
