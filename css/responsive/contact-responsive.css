@@ -33,7 +33,7 @@
   form button:last-child {
     width: 40% !important;
   }
-  .section-content > button {
+  .section-content > a button {
     width: 30% !important;
   }
   .section-content {
@@ -86,7 +86,7 @@
   form > button {
     width: 100% !important;
   }
-  .section-content > button {
+  .section-content > a button {
     width: 90% !important;
   }
   /* / footer basladi / */
