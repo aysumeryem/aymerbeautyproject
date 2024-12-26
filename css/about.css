@@ -325,7 +325,7 @@ footer {
 }
 
 .card {
-  width: 70%;
+  width: 50%;
   display: flex;
   gap: 15px;
   align-items: center;
