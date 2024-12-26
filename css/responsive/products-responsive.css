@@ -15,14 +15,14 @@
     text-align: center;
   }
 
-  .deliveryInfo button p {
+  .deliveryInfo button span {
     display: block;
   }
 
   .menubtn {
     display: block !important;
   }
-  /* / header bitdi  / */
+  /* header bitdi  */
   #product-container .card {
     width: 49% !important;
   }
@@ -31,7 +31,7 @@
     width: 30% !important;
   }
 
-  /* / Modal / */
+  /* Modal */
   .modal {
     width: 95% !important;
   }
@@ -54,7 +54,7 @@
     text-align: center;
   }
 
-  .deliveryInfo button p {
+  .deliveryInfo button span {
     display: none;
   }
 
@@ -77,7 +77,7 @@
     width: 100% !important;
   }
 
-  /* / footer basladi  / */
+  /* footer basladi  */
 
   .footer-content {
     flex-direction: column-reverse;
@@ -98,7 +98,7 @@
     text-align: center !important;
   }
 
-  /* / Modal / */
+  /* Modal */
   .modal {
     width: 95% !important;
   }

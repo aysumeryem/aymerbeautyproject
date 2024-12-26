@@ -1,4 +1,4 @@
-/* / tablet / */
+/* tablet */
 @media only screen and (max-width: 991px) {
   nav {
     position: absolute;
@@ -16,19 +16,19 @@
     text-align: center;
   }
 
-  .deliveryInfo button p {
+  .deliveryInfo button span {
     display: block;
   }
 
   .menubtn {
     display: block !important;
   }
-  /* / Modal / */
+  /* Modal */
   .modal {
     width: 95% !important;
   }
 
-  /* / section / */
+  /* section */
 
   form button:last-child {
     width: 40% !important;
@@ -61,7 +61,7 @@
     text-align: center;
   }
 
-  .deliveryInfo button p {
+  .deliveryInfo button span {
     display: none;
   }
 
@@ -69,9 +69,9 @@
     display: block !important;
   }
 
-  /* / header bitdi / */
+  /* header bitdi */
 
-  /* / section / */
+  /* section */
   section {
     padding: 20px !important;
   }
@@ -86,10 +86,10 @@
   form > button {
     width: 100% !important;
   }
-  .section-content > a button {
+  .section-content > a {
     width: 90% !important;
   }
-  /* / footer basladi / */
+  /* footer basladi */
 
   .footer-content {
     flex-direction: column-reverse;
@@ -110,7 +110,7 @@
     text-align: center !important;
   }
 
-  /* / Modal / */
+  /* Modal */
   .modal {
     width: 95% !important;
   }
