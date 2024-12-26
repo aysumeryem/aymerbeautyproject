@@ -293,9 +293,10 @@ nav ul li a {
 
 #section-4 {
   padding: 40px 0;
-  background-image: url("/assets/images/cosmeticbg.png");
-  background-size: cover;
+  background-image: url("../assets/images/cosmeticbg.png");
+  background-size: cover
 }
+
 #section-4 .title {
   text-align: center;
   margin-bottom: 60px;
