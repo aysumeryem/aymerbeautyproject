@@ -33,7 +33,7 @@
   form button:last-child {
     width: 40% !important;
   }
-  .section-content > a button {
+  .section-content > a {
     width: 30% !important;
   }
   .section-content {
